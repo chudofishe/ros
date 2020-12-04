@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="simulator"/>
+    <node pkg="turtle1" type="turtles_catch_up.py" name="turtles_catch_up" output="screen"/>
+    <node pkg="turtlesim" type="turtle_teleop_key" name="controller"/>
+</launch>
